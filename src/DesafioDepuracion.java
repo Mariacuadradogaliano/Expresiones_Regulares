@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class DesafioDepuracion {
 
-		int casa;
+		int algo = 0;
     // Método que calcula el promedio de los números en un arreglo
     public static double calcularPromedio(int[] numeros) {
         int suma = 0;
