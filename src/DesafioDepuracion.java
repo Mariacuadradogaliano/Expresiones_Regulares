@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class DesafioDepuracion {
 
+		int casa;
     // Método que calcula el promedio de los números en un arreglo
     public static double calcularPromedio(int[] numeros) {
         int suma = 0;
@@ -10,7 +11,7 @@ public class DesafioDepuracion {
         }
         return suma / (double) numeros.length;  // Error: división de enteros puede no ser precisa, debería ser "suma / (double) numeros.length"
     }
-
+    
     // Método que busca un número en el arreglo y devuelve su posición
     public static int buscarNumero(int[] numeros, int objetivo) {
         for (int i = 0; i < numeros.length; i++) {
@@ -20,6 +21,7 @@ public class DesafioDepuracion {
         }
         return -1;
     }
+  
 
     // Método que invierte una cadena (al revés)
     public static String invertirCadena(String cadena) {
@@ -67,5 +69,8 @@ public class DesafioDepuracion {
         // Cerrar el escáner
         scanner.close();
         System.out.println("Fin del programa");
+        
+        
+        
     }
 }
